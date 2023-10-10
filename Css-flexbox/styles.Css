@@ -1,0 +1,29 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: #202124;
+    width: 100%;
+    height: 100%;
+}
+p{
+    color: white;
+}
+p1{
+    color: white;
+}
+
+.div-conteiner{
+    width: inherit;
+    display: flex;
+    border: 2px solid turquoise;
+}
+.div-conteiner.navigation{
+    justify-content: flex-end;
+}
+
+.div-conteiner .header{
+    display: flex;
+    width: 370px;
+    justify-content: space-around;
+    border: 2px solid green;
+}
